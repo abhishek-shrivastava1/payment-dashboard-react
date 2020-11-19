@@ -1,0 +1,189 @@
+body {
+  padding: 15px 0;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: rgba(240, 239, 239, 0.85);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  margin: auto;
+  position: relative;
+  border-radius: 20px;
+  height: 95vh;
+}
+
+.App .Sidebar {
+  padding: 1%;
+  width: 25%;
+  border-right: 1px double #b8b6b6;
+}
+
+.App .Sidebar .Brand {
+  margin: 3% auto;
+  padding: 5%;
+}
+
+.App .Sidebar .Brand i {
+  margin: 10px;
+}
+
+.App .Sidebar .Brand img {
+  margin-left: 5%;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.App .Sidebar .Brand h3 {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.App .Sidebar .SidebarContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+}
+
+.App .Sidebar .SidebarContent p {
+  vertical-align: middle;
+  margin: 3%;
+}
+
+.App .Sidebar .SidebarContent i {
+  margin-left: 30px;
+}
+
+.App .Sidebar .Offer {
+  text-align: center;
+  padding: 0 10%;
+}
+
+.App .Sidebar .Offer img {
+  height: 100px;
+  width: 100px;
+}
+
+.App .Sidebar .Offer .buy-btn {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.App .Sidebar .ProfileCard {
+  background-color: #fcfcfc;
+  border-radius: 20px;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.App .Sidebar .ProfileCard .profile-detail {
+  vertical-align: middle;
+}
+
+.App .Sidebar .ProfileCard .profile-detail h6 {
+  margin: 10% auto 0;
+  display: inline-block;
+}
+
+.App .Sidebar .ProfileCard .profile-detail p {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.App .Main {
+  width: 100%;
+  padding: 2%;
+}
+
+.App .Main .Overview h2 {
+  display: inline-block;
+}
+
+.App .Main .Overview .OverviewData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 2%;
+}
+
+.App .Main .Overview .OverviewData .OverviewSectionOne .Balance {
+  padding: 5%;
+  width: 30rem;
+  -webkit-box-shadow: gray;
+          box-shadow: gray;
+}
+
+.App .Main .Overview .OverviewData .OverviewSectionOne .Balance p {
+  size: 1rem;
+  display: inline-block;
+}
+
+.App .Main .Overview .OverviewData .OverviewSectionOne .Balance h2 {
+  display: block;
+  font-weight: 700;
+}
+
+.App .Main .Overview .OverviewData .OverviewSectionOne .Balance i {
+  margin-left: 30px;
+  color: purple;
+}
+
+.App .Main .Overview .OverviewData .OverviewSectionOne .Activity {
+  margin: 20px;
+}
+
+.App .Main .Overview .OverviewData .OverviewSectionOne .Activity .heading {
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 3%;
+}
+
+.App .Main .Overview .OverviewData .OverviewSectionOne .Activity .heading p {
+  margin-left: 15px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.App .Main .Overview .OverviewData .OverviewSectionOne .Activity .TransactionList {
+  margin-top: 5%;
+}
+
+.CircleUserImage {
+  margin: auto 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  border: 1px solid gray;
+}
+
+.RoundedRectangle {
+  background-color: #fcfcfc;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 0.7% 1%;
+  margin: auto 10px;
+}
+/*# sourceMappingURL=app.css.map */
